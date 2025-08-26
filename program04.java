@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class program03 
+public class program04 
 {
     public static void main(String[] arge)
     {
@@ -8,6 +8,5 @@ public class program03
 
         
         System.out.println(sun.nextLine());
-        System.out.println(sun.next());
     }
 }
