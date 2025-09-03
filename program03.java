@@ -7,7 +7,6 @@ public class program03
         Scanner sun = new Scanner(System.in);
 
         
-        System.out.println(sun.nextLine());
         System.out.println(sun.next());
     }
 }
