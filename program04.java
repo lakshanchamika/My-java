@@ -3,10 +3,11 @@ public class program04
 {
     public static void main(String[] arge)
     {
+        Scanner txt = new Scanner(System.in);
         System.out.print("Input Text :- ");
-        Scanner sun = new Scanner(System.in);
+        String Text = txt.nextLine();
 
         
-        System.out.println(sun.nextLine());
+        System.out.println("Text is:" +Text);
     }
 }
