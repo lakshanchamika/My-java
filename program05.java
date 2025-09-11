@@ -4,29 +4,30 @@ public class program05
 {
     public static void main(String[] args)
     {
-        double no,no2,sum,;
-        Scanner sun = new Scanner(System.in);
-        
-        System.out.println("Enter your First number")
-        no1 = no.nextdouble();
+        double no1,no2,sum,sub,mul,div,mod;
 
-        System.out.println("Enter your second number")
-        no2 = no.nextdouble();
+        Scanner no = new Scanner(System.in);
+        
+        System.out.println("Enter your First number");
+        no1 = no.nextDouble();
+
+        System.out.println("Enter your second number");
+        no2 = no.nextDouble();
 
         sum = no1+no2;
-        System.out.println("sum is" +ans);
+        System.out.println("sum is" +sum);
 
-        ans = no2-no1;
-        System.out.println(ans);
+        sub = no2-no1;
+        System.out.println("Subtraction is" +sub);
 
-        ans = no1*no2;
-        System.out.println(ans);
+        mul = no1*no2;
+        System.out.println("Multipication is:" +mul);
 
-        ans = no2/no1;
-        System.out.println(ans);
+        div = no2/no1;
+        System.out.println("Division is:" +div);
 
-        ans = no2%no1;
-        System.out.println(ans);
+        mod = no2%no1;
+        System.out.println("Modulo is:" +mod);
 
     
     }
