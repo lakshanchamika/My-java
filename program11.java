@@ -3,7 +3,7 @@ public class program11 {
 
         //2D array
 
-        //01..........
+        
         double[][] C={
             {21.20,12.02},
             {13.50,45.26},
