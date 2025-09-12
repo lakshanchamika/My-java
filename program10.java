@@ -22,16 +22,7 @@ public class program10 {
         System.out.println(A[3]);
 
 
-        //2D array
 
-        //01..........
-        double[][] C={
-            {21.20,12.02},
-            {13.50,45.26},
-            {85.36,25.36}
-        };
-
-        System.out.println(C[2][1]);
 
         
 
