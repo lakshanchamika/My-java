@@ -2,9 +2,12 @@ import java.util.Scanner;
 public class program07 {
 
     public static void main(String[] args){
+        System.out.println("Enter your numbrer:");
         Scanner A = new Scanner(System.in);
         int day = A.nextInt();
+
         A.close();
+
         if(day>0 && day<8){
             switch(day){
                 case 1:
@@ -17,7 +20,7 @@ public class program07 {
                     System.out.println("Today is Wednesday");
                     break;
                 case 4:
-                    System.out.println("Today is Thuesday");
+                    System.out.println("Today is Thursday");
                     break;
                 case 5:
                     System.out.println("Today is Friday");
