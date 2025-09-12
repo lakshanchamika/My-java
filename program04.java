@@ -6,6 +6,8 @@ public class program04
         Scanner txt = new Scanner(System.in);
         System.out.print("Input Text :- ");
         String Text = txt.nextLine();
+        
+        txt.close();
 
         
         System.out.println("Text is:" +Text);

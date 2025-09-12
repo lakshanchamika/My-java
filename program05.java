@@ -14,6 +14,8 @@ public class program05
         System.out.println("Enter your second number");
         no2 = no.nextDouble();
 
+        no.close();
+
         sum = no1+no2;
         System.out.println("sum is" +sum);
 

@@ -8,5 +8,6 @@ public class program03
 
         int A = A1.nextInt();
         System.out.println(+A);
+        A1.close();
     }
 }

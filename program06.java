@@ -2,18 +2,24 @@ import java.util.Scanner;
 public class program06 {
     public static void main(String[] args){
         Scanner num = new Scanner(System.in);
-        System.out.println("Enter Your First Number:-");
+        System.out.print("Enter Your First Number:-");
         int A =num.nextInt();
 
-        System.out.println("Enter Your Second Number:-");
+        System.out.print("Enter Your Second Number:-");
         int B = num.nextInt();
 
-        if(A>B){
-            System.out.print("A is a bigger than B");
-        }else{
-            System.out.print("B is bigger than A");
-        }
+        num.close();
 
+
+        if(A>B){
+            System.out.println("A is a bigger than B");
+        }else if(B>A){
+            System.out.println("B is bigger than A");
+        }else{
+            System.out.println("\'A\' and \'B\' in similer");
+        }
+        
+        
         
     }
 }
