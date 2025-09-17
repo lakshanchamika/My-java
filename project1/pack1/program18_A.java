@@ -6,6 +6,8 @@ public class program18_A {
     public static void main(String[] args) {
         program18_B obj1 = new program18_B();
         program18_C obj2 = new program18_C();
+        obj1.call();
+        obj2.massage();
 
     }
 }
